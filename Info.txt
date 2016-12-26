@@ -1,0 +1,42 @@
+#Author
+Siddharth Shankar
+@: sshanka4@uncc.edu
+
+#Construct the Environment
+Steps to configure the environment:
+1) Download and install Anaconda from the following link:
+	https://www.continuum.io/downloads
+2)Open the Spyder application.
+3) Put all the code files in the present working directory of the system.
+
+#Environment Details:
+Language: Python 3.5
+IDE used: Spyder
+Libraries:Pandas, Scikit
+Operating System: Windows 10
+
+#Code files:
+naiveBayes.py
+
+#How to run and test
+Following are the steps to run the code files:
+Extract the subset of the zip dataset file and store the files in the location of the working directory.
+Execute the code.
+For 1st execution, it might take couple of hours to run if the data is too big.
+Note the results of the prediction in the test data shown in the console.
+
+Status and stopping point-
+The test data has a huge values whose predictions need to be done. So the system with RAM 16 GB needs couple of hours to process. So the data file is divided into chunks and operation is being done on that.
+
+Results:
+
+The data given consists of documents,corresponding word IDs, corresponding word counts and labels of the documents.
+1) Overview:
+The main objective is to design a Naïve Bayes classifier for the given data. At first a training needs to be done using the training data (train.data and train.label) and then use this trained model to predict for the test data. Since, the test data is quite massive, the test file is split into chunks.The results for the first 100 tuples are as follows:
+[19 10 10 16 16 19 6 17 7 12 7 16 16 9 12 1 16 7 11 11 16 16 14 7 3
+10 9 9 5 17 1 20 19 11 11 1 2 7 1 7 5 10 14 9 14 12 1 10 12 16
+2 9 1 1 1 1 1 14 20 18 5 14 11 15 13 5 9 5 9 13 5 16 10 5 5
+16 10 14 10 16 16 10 16 16 13 10 10 16 1 16 10 10 5 6 16 10 16 9 18 9]
+
+
+
